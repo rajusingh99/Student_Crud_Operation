@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    /* background-color: rgb(75, 74, 74); */
+  }
+
+  .first{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+  }
+  #name,#grade,#email{
+    width: 100%;
+
+  }
+  
+  form, input, button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table, th, td {
+    border: 2px solid rgb(19, 6, 6);
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #add-btn {
+    background-color: #080606;
+    width: 20%;
+    height: 30px;
+    /* padding: 10%; */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #search {
+    width: 80%;
+    padding: 15px;
+    margin-left: 8%;
+  }
+  
+  #search:focus {
+    outline: none;
+  }
+  
