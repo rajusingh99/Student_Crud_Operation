@@ -45,10 +45,10 @@ const students = [
         <td>${student.degree}</td>
         <td>${student.email} </td>
         <td><button class="edit-btn" data-index="${index}">
-        <img src="./edit_icon.png" alt="Edit" width="25px" height="25px">
+        Edit
         </button></td>
         <td><button class="delete-btn" data-index="${index}">
-        <img src="./delete_ic_icon.png" alt="Edit" width="25px" height="25px">
+        Delete
         </button></td>
         
         `;
