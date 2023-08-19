@@ -142,7 +142,7 @@ const students = [
         <td>${student.email}</td>
         <td>
             <button class="edit-btn" data-index="${index}">
-            <img src="./edit_icon.png" alt="Edit">
+           Edit
             </td>
         <td><button class="delete-btn" data-index="${index}">Delete</button></td>
       `;
